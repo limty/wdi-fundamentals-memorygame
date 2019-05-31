@@ -3,7 +3,6 @@
 <head>
 	<link href="css/reset.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<title>Memory Card Game</title>
 </head>
@@ -23,17 +22,15 @@
 		<h2>About the Game</h2>
 		<p>It is a simple and fun game to challenge yourself.</p>
 		<p>Play Now!</p>
-		<img src="images/back.png" alt="Queen of Diamonds">
-		<img src="images/back.png" alt="Queen of Hearts">
-		<img src="images/back.png" alt="King of Diamonds">
-		<img src="images/back.png" alt="King of Hearts">
+		<div id="game-board" class="board clearfix"></div>
+		<div>Score: <p id="score-text">0</p><button type="button" id="button-reset">Reset</button></div>
 	</main>
 	<footer class="clearfix">
 		<p class="copyright">Copyright 2017</p>
-		<p class="message">Created with &hearts; by <span class="name">GA</span></p>
+		<p class="message">Created with &hearts; by <span class="name">LTY</span> & <span class="name">GA</span></p>
 		<p>Connect With Us</p>
-		<a href="#" class="fa fa-facebook"></a>
-		<a href="#" class="fa fa-twitter"></a>
+		<a href="http://facebook.com"><img class="social-icons" src="images/f_logo_RGB-Blue_58.png" alt="Facebook"></a>
+		<a href="http://twitter.com"><img class="social-icons" src="images/Twitter_Social_Icon_Circle_Color.png" alt="Twitter"></a>
 	</footer>
 	<script src="js/main.js"></script>
 </body>
